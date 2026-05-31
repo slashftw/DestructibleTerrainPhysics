@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1af4cac561558a44985d5457a3cd397, type: 3}
+  m_Name: DTP_Preset_1080p
+  m_EditorClassIdentifier: DTP::slash_DTP.TerrainPreset
+  referenceResolution: 1920
+  chunkSize: 128
+  alphaThreshold: 0.1
+  simplifyTolerance: 1
+  eraseRadius: 0.3
+  canDig: 1
+  maxPhysicsPixels: 75000
+  anchorToSideBorders: 0
+  anchorWholeBody: 0
+  aftermathColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  aftermathThickness: 3
+  particleSpawnChance: 0.05
+  enableDebrisParticles: 0
+  groundAnchorY: -1
+  massPerPixel: 0.0001
+  gravityPerPixel: 0.00033
+  minChunkGravity: 1
+  maxChunkGravity: 5
+  enableIslandFalling: 1
+  enableImpactWelding: 1
+  destroyOffscreenChunks: 0
+  minimumPhysicsPixels: 500
+  minMergeVelocity: 5
+  minEmbedVelocity: 5
+  embedMultiplier: 0.05
+  maxEmbedPixels: 20
+  mergeDuration: 0.25
+  maxMergeAngle: 20
+  smashVelocity: 15
+  visualChunkSize: 256
+  maxRebuildsPerFrame: 16
+  rebuildBudgetMs: 4
+  visualsBudgetMs: 3
+  mainlandSimplifyTolerance: 0.5
+  enableGhostSweep: 1
+  sleepIdleSeconds: 3
+  sleepWakeRadius: 5
+  maxVisualsPerFrame: 8
+  minContourAreaPxSqr: 256
