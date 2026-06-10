@@ -1,9 +1,0 @@
-{
-    "name": "DTP.Editor",
-    "references": [
-        "DTP"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ]
-}
